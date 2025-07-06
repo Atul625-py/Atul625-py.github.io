@@ -1,3 +1,15 @@
 title: Atul Kumar Pandey
-description: Personal site on GitHub Pages
+description: Machine Learning · Computer Vision · Quant Finance
+baseurl: "" # leave this empty for user.github.io
+url: "https://Atul625-py.github.io"
 theme: minima
+
+author:
+  name: Atul Kumar Pandey
+  email: atul.kpandey.cse23@itbhu.ac.in
+
+# Navbar links
+header_pages:
+  - index.md
+  - projects.md
+  - about.md
