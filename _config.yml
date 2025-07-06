@@ -1,27 +1,28 @@
 title: "Atul Kumar Pandey"
 tagline: "ML · CV · Quant | IIT-BHU"
 description: "Personal portfolio"
-baseurl: "" # do not change
 url: "https://Atul625-py.github.io"
-sass:
-  style: compressed
-header_pages:
-  - projects.html
-  - about.html
-
+baseurl: "" # Leave blank for GitHub Pages user site
 
 lang: en
 timezone: Asia/Kolkata
 
-theme: jekyll-theme-chirpy
 remote_theme: cotes2020/jekyll-theme-chirpy
 
-# Social Links
-github: 
+header_pages:
+  - projects.html
+  - about.html
+
+# Output style for custom SCSS (only if you're using `assets/css/custom.scss`)
+sass:
+  style: compressed
+
+# Social links
+github:
   username: Atul625-py
 linkedin:
   username: atul-kumar-pandey-4a4633289
 email: atul.kpandey.cse23@itbhu.ac.in
 
-# SEO
+# SEO (optional)
 google_site_verification: ""
