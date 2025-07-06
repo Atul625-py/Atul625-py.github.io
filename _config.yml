@@ -5,6 +5,9 @@ baseurl: "" # do not change
 url: "https://Atul625-py.github.io"
 sass:
   style: compressed
+header_pages:
+  - projects.html
+  - about.html
 
 
 lang: en
