@@ -1,15 +1,24 @@
-title: Atul Kumar Pandey
-description: Machine Learning · Computer Vision · Quant Finance
-baseurl: "" # leave this empty for user.github.io
+title: "Atul Kumar Pandey"
+tagline: "ML · CV · Quant | IIT-BHU"
+description: "Personal portfolio"
+baseurl: "" # do not change
 url: "https://Atul625-py.github.io"
-theme: minima
+sass:
+  style: compressed
 
-author:
-  name: Atul Kumar Pandey
-  email: atul.kpandey.cse23@itbhu.ac.in
 
-# Navbar links
-header_pages:
-  - index.md
-  - projects.md
-  - about.md
+lang: en
+timezone: Asia/Kolkata
+
+theme: jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# Social Links
+github: 
+  username: Atul625-py
+linkedin:
+  username: atul-kumar-pandey-4a4633289
+email: atul.kpandey.cse23@itbhu.ac.in
+
+# SEO
+google_site_verification: ""
