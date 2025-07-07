@@ -1,5 +1,12 @@
 // Skills icons - https://icon-sets.iconify.design/
 import { Icon } from "@iconify/react";
+// Projects Images (add your images to the src/images directory and import below)
+import AIForBlind from "./images/blind-app.png";
+import AMEX from "./images/amex.png";
+import PortfolioSite from "./images/portfolio-site.png";
+import FMC from "./images/fmcw.png";
+import StockTrading from "./images/trading.png";
+import Hangman from "./images/hangman.png";
 
 // Navbar Logo image (add your image to the src/images directory and uncomment the line below to import your image)
 // import newLogo from "./images/yourFileName"
@@ -35,8 +42,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I'm a junior undergraduate at IIT (BHU) Varanasi pursuing Computer Science and Engineering. I enjoy building impactful systems—from AI-powered apps to algorithmic trading platforms—and working at the intersection of machine learning, systems, and finance. This site was built using React, React Bootstrap, and GitHub Pages to showcase my projects and research interests.";
-
+  "I'm a junior undergraduate at IIT (BHU) Varanasi pursuing Computer Science and Engineering. I enjoy building impactful systems—from AI-powered apps to algorithmic trading platforms—and working at the intersection of machine learning, systems, and finance. My core interests include deep learning, reinforcement learning, and quantitative modeling. This site was built using React, React Bootstrap, and GitHub Pages to showcase my projects and research interests.";
 /* Skills
  ************************************************************** 
   Add or remove skills in the SAME format below, choose icons here - https://icon-sets.iconify.design/
@@ -159,30 +165,31 @@ export const filteredProjects = [
   "Stock_Trading_Portfolio",
   "Trexquant_Hangman",
 ];
+// Replace the default GitHub image for matching repos below (images imported above - line 8)
 export const projectCardImages = [
   {
     name: "AIForBlindApp",
-    image: <Icon icon="mdi:eye" className="display-1 text-primary" />,
+    image: AIForBlind,
   },
   {
     name: "AMEX-Hackathon",
-    image: <Icon icon="mdi:credit-card-outline" className="display-1 text-info" />,
+    image: AMEX,
   },
   {
     name: "Atul625-py.github.io",
-    image: <Icon icon="mdi:account-circle-outline" className="display-1 text-secondary" />,
+    image: PortfolioSite,
   },
   {
     name: "fmc-24-nextjs",
-    image: <Icon icon="simple-icons:nextdotjs" className="display-1 text-dark" />,
+    image: FMC,
   },
   {
     name: "Stock_Trading_Portfolio",
-    image: <Icon icon="mdi:chart-line" className="display-1 text-success" />,
+    image: StockTrading,
   },
   {
     name: "Trexquant_Hangman",
-    image: <Icon icon="mdi:alphabetical-variant" className="display-1 text-danger" />,
+    image: Hangman,
   },
 ];
 
