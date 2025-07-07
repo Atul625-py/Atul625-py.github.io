@@ -35,74 +35,154 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I'm a junior undergraduate at IIT (BHU) Varanasi pursuing Computer Science and Engineering. I enjoy building impactful systems—from AI-powered apps to algorithmic trading platforms—and working at the intersection of machine learning, systems, and finance. This site was built using React, React Bootstrap, and GitHub Pages to showcase my projects and research interests.";
 
 /* Skills
  ************************************************************** 
   Add or remove skills in the SAME format below, choose icons here - https://icon-sets.iconify.design/
 */
 export const skillData = [
+  // Programming Languages
   {
     id: 1,
+    skill: <Icon icon="mdi:language-c" className="display-4" />,
+    name: "C",
+  },
+  {
+    id: 2,
+    skill: <Icon icon="mdi:language-cpp" className="display-4" />,
+    name: "C++",
+  },
+  {
+    id: 3,
+    skill: <Icon icon="mdi:language-python" className="display-4" />,
+    name: "Python",
+  },
+  {
+    id: 4,
+    skill: <Icon icon="mdi:language-r" className="display-4" />,
+    name: "R",
+  },
+  {
+    id: 5,
+    skill: <Icon icon="mdi:language-javascript" className="display-4" />,
+    name: "JavaScript",
+  },
+  {
+    id: 6,
     skill: <Icon icon="mdi:language-html5" className="display-4" />,
     name: "HTML5",
   },
   {
-    id: 2,
+    id: 7,
     skill: <Icon icon="ion:logo-css3" className="display-4" />,
     name: "CSS3",
   },
+
+  // Core ML Libraries
   {
-    id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
+    id: 8,
+    skill: <Icon icon="simple-icons:tensorflow" className="display-4" />,
+    name: "TensorFlow",
   },
   {
-    id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    id: 9,
+    skill: <Icon icon="simple-icons:keras" className="display-4" />,
+    name: "Keras",
   },
   {
-    id: 5,
+    id: 10,
+    skill: <Icon icon="simple-icons:scikitlearn" className="display-4" />,
+    name: "Scikit-learn",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="simple-icons:numpy" className="display-4" />,
+    name: "NumPy",
+  },
+  {
+    id: 12,
+    skill: <Icon icon="simple-icons:pandas" className="display-4" />,
+    name: "Pandas",
+  },
+  {
+    id: 13,
+    skill: <Icon icon="simple-icons:opencv" className="display-4" />,
+    name: "OpenCV",
+  },
+
+  // Web & Dev Tools
+  {
+    id: 14,
     skill: <Icon icon="mdi:react" className="display-4" />,
     name: "React",
   },
   {
-    id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    id: 15,
+    skill: <Icon icon="simple-icons:django" className="display-4" />,
+    name: "Django",
   },
   {
-    id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    id: 16,
+    skill: <Icon icon="simple-icons:flask" className="display-4" />,
+    name: "Flask",
   },
   {
-    id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
+    id: 17,
+    skill: <Icon icon="mdi:docker" className="display-4" />,
+    name: "Docker",
+  },
+  {
+    id: 18,
+    skill: <Icon icon="mdi:git" className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
-    skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
-    name: "GitHub",
+    id: 19,
+    skill: <Icon icon="devicon:mysql" className="display-4" />,
+    name: "MySQL",
   },
 ];
 
-// Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+// Resume link (string - "https://YourResumeUrl")
+export const resume = "https://drive.google.com/your-resume-link-here";
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
-
-// Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
+export const filteredProjects = [
+  "AIForBlindApp",
+  "AMEX-Hackathon",
+  "Atul625-py.github.io",
+  "fmc-24-nextjs",
+  "Stock_Trading_Portfolio",
+  "Trexquant_Hangman",
+];
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "AIForBlindApp",
+    image: <Icon icon="mdi:eye" className="display-1 text-primary" />,
+  },
+  {
+    name: "AMEX-Hackathon",
+    image: <Icon icon="mdi:credit-card-outline" className="display-1 text-info" />,
+  },
+  {
+    name: "Atul625-py.github.io",
+    image: <Icon icon="mdi:account-circle-outline" className="display-1 text-secondary" />,
+  },
+  {
+    name: "fmc-24-nextjs",
+    image: <Icon icon="simple-icons:nextdotjs" className="display-1 text-dark" />,
+  },
+  {
+    name: "Stock_Trading_Portfolio",
+    image: <Icon icon="mdi:chart-line" className="display-1 text-success" />,
+  },
+  {
+    name: "Trexquant_Hangman",
+    image: <Icon icon="mdi:alphabetical-variant" className="display-1 text-danger" />,
   },
 ];
 
