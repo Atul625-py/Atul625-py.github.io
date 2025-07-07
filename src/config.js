@@ -151,7 +151,7 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl")
-export const resume = "https://drive.google.com/your-resume-link-here";
+export const resume = "https://drive.google.com/file/d/1mid9bSrUgGxTdosWXyBZ5BTvPbMKOJqN/view?usp=sharing";
 
 /* Projects
  ************************************************************** 
